@@ -1,0 +1,23 @@
+.flexCore-wrapper {
+  width: 100%;
+  display: flex;
+  .review-box {
+    width: 600px;
+    height: 600px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ccc;
+    .item {
+      width: 100px;
+      height: 100px;
+      background: rgb(236, 50, 50);
+    }
+  }
+  .tools {
+    width: 600px;
+    height: 600px;
+    text-align: left;
+    padding: 30px;
+  }
+}
