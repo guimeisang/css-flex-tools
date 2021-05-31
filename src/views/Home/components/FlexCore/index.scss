@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   .review-box {
+    flex: 1;
     width: 600px;
     height: 600px;
     border-right: 1px solid #ccc;
@@ -9,15 +10,19 @@
     flex-wrap: wrap;
     background: #ccc;
     .item {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
       background: rgb(236, 50, 50);
     }
   }
   .tools {
+    flex: 1;
     width: 600px;
     height: 600px;
     text-align: left;
     padding: 30px;
+    .setting-box {
+      margin-bottom: 5px;
+    }
   }
 }
