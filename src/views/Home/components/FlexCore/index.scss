@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   .review-box {
-    flex: 1;
     width: 600px;
     height: 600px;
     border-right: 1px solid #ccc;
@@ -16,7 +15,6 @@
     }
   }
   .tools {
-    flex: 1;
     width: 600px;
     height: 600px;
     text-align: left;

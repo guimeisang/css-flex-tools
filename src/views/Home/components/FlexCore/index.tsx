@@ -96,29 +96,34 @@ export default function FlexCore() {
             <option value="stretch">stretch</option>
           </select>
         </div>
-      </div>
-      <div>
-        <p>item的属性设置: </p>
-        <p>order: 定义项目的排列顺序，数字越少越在前面</p>
-        <p>
-          flex-grow: 定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大
-        </p>
-        <p>
-          flex-shrink: 定义项目的缩小比例，默认是1，即如果空间不足，也不缩小
-        </p>
-        <p>
-          flex-basis: 定义了在分配多余空间之前，项目占据的主轴空间（main
-          size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小
-        </p>
-        <p>
-          flex: flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0
-          1 auto
-        </p>
-        <p>
-          align-self:
-          align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
-          默认值：auto | flex-start | flex-end | center | baseline | stretch
-        </p>
+        <div
+          style={{
+            border: '1px solid #ccc',
+            padding: '10px',
+          }}
+        >
+          <p>item的属性设置: </p>
+          <p>order: 定义项目的排列顺序，数字越少越在前面</p>
+          <p>
+            flex-grow: 定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大
+          </p>
+          <p>
+            flex-shrink: 定义项目的缩小比例，默认是1，即如果空间不足，也不缩小
+          </p>
+          <p>
+            flex-basis: 定义了在分配多余空间之前，项目占据的主轴空间（main
+            size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小
+          </p>
+          <p>
+            flex: flex属性是flex-grow, flex-shrink 和
+            flex-basis的简写，默认值为0 1 auto
+          </p>
+          <p>
+            align-self:
+            align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
+            默认值：auto | flex-start | flex-end | center | baseline | stretch
+          </p>
+        </div>
       </div>
     </div>
   )
